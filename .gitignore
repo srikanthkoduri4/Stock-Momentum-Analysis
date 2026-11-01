@@ -1,0 +1,6 @@
+*
+!docs/
+!docs/**
+!README.md
+!.gitignore
+!docs/.nojekyll
