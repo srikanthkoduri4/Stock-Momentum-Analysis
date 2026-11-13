@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Momentum Lab</title>
+    <script>
+      try {
+        if (localStorage.getItem('ml-theme') === 'dark') document.documentElement.dataset.theme = 'dark';
+        else document.documentElement.dataset.theme = 'light';
+      } catch (e) {}
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/Stock-Momentum-Analysis/assets/index-BoOLP3OL.js"></script>
-    <link rel="stylesheet" crossorigin href="/Stock-Momentum-Analysis/assets/index-BnBJKBg9.css">
+    <script type="module" crossorigin src="/Stock-Momentum-Analysis/assets/index-lpOBoXu_.js"></script>
+    <link rel="stylesheet" crossorigin href="/Stock-Momentum-Analysis/assets/index-DVlCvbs6.css">
   </head>
   <body>
     <div id="root"></div>
